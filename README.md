@@ -15,7 +15,6 @@ Download data from [here](http://www.robots.ox.ac.uk/~lz/DEM_cvpr2017/data.zip) 
 GZSL performance evaluated under the setting proposed in [Zero-Shot Learning - A Comprehensive Evaluation of the Good, the Bad and the Ugly](https://arxiv.org/abs/1707.00600).Yongqin Xian, Christoph H. Lampert, Bernt Schiele, Zeynep Akata.  
 ResNet-101 feature, GBU split, averaged per class accuracy.  
 
-| Model      |    u    |    s    |    H    |    u    |    s    |    H    |    u    |    s    |    H    |    u    |    s    |    H    |
-| Model      |    u    |    s    |    H    |    u    |    s    |    H    |    u    |    s    |    H    |    u    |    s    |    H    |
+| Model      |    AWA1 ts    |    AWA1 tr |    AWA1 H    |    AWA2 ts    |    AWA2 tr  |   AWA2 H    |    CUB ts  |   CUB tr |   CUB H    |   SUN ts   |   SUN tr    |   SUN H    |
 |------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
 | ours       |   48.5   |   59.8   |   53.6   |   52.4   |   60.9   |   56.3   |   30.2   |   63.4   |   40.9   |**32.2** |**59.0** |**41.6** |  
