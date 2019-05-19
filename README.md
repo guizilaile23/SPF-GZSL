@@ -11,11 +11,9 @@ Cuda
 # Data
 Download data from [here](http://www.robots.ox.ac.uk/~lz/DEM_cvpr2017/data.zip) and unzip it `unzip data.zip`.
 
-
 # Result
-GZSL performance evaluated under the setting proposed in [Zero-Shot Learning - A Comprehensive Evaluation of the Good, the Bad and the Ugly](https://arxiv.org/abs/1707.00600).Yongqin Xian, Christoph H. Lampert, Bernt Schiele, Zeynep Akata.
-
-ResNet-101 feature, GBU split, averaged per class accuracy.
+GZSL performance evaluated under the setting proposed in [Zero-Shot Learning - A Comprehensive Evaluation of the Good, the Bad and the Ugly](https://arxiv.org/abs/1707.00600).Yongqin Xian, Christoph H. Lampert, Bernt Schiele, Zeynep Akata.  
+ResNet-101 feature, GBU split, averaged per class accuracy.  
 |            |     AWA1 T1     |      AWA2 T1         |      CUB T1         |    SUN T1     |   
 | Model      |  u  |  s  |  H  |  u  |  s  |  H  |  u  |  s  |  H  |  u  |  s  |  H  |  
 |------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|  
