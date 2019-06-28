@@ -2,11 +2,15 @@
 ---------------------------------------------------------------------------------------------------
 Code of paper "Generalized Zero Shot Learning via Synthesis Pseudo Features"
 ---------------------------------------------------------------------------------------------------
-  
+
+During training, the results will be saved as an html file that include the hyper-parameters, the loss and accuracy, and a figure of loss value and accuracy value 
+
 # Requirement
 Python > 3.6  
 Pytorch > 1.0.0  
-Cuda  
+Cuda10.0
+cudnn 7.4
+
 # Data
 Download data from [here](https://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip) and unzip it `unzip data.zip`. The data used in this paper is provided by Xian(https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly/)
 
@@ -29,3 +33,8 @@ ResNet-101 feature, GBU split, averaged per class accuracy.
 | NIWT  |   –	  |  –  |  	–  |  	42.3	  |  38.8	  |  40.5	  |  20.7	  |  41.8	  |  27.7	  |  –	  |  –	  |  – |
 | RN    |   31.4	  |**91.3**|  46.7	  |  30.0	  |**93.4**|  45.3	  |**38.1** |  61.1	  |**47.0**|  –	  |  –	  |  – |
 | ours  | **48.5** |   59.8   | **53.6** | **52.4**|   60.9   |**56.3**|   30.2   |   63.4   |   40.9   |**32.2** |**59.0** |**41.6** | 
+
+
+# Cite information
+C. Li, X. Ye, H. Yang, Y. Han, X. Li and Y. Jia, "Generalized Zero Shot Learning via Synthesis Pseudo Features," in IEEE Access.
+doi: 10.1109/ACCESS.2019.2925093
